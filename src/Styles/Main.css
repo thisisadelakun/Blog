@@ -1,0 +1,73 @@
+.my-main{
+    overflow: hidden;
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+    background-image: url('../Assets/pattern-background-desktop.svg');
+    background-blend-mode: soft-light;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: top;  
+    margin-top: 4.5rem;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+h1,h2,h3{
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.mainfirsttext{
+    text-align: left;
+    width: 90%;
+    margin: 3rem 2rem;
+}
+.research{
+    color: grey;
+}
+.servicesbtn{
+    padding: 0.5rem 1.5rem;
+    font-size: 15px;
+    font-weight: 500px;
+    font-family: 'Josefin Sans', sans-serif;
+    background: transparent;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+.servicesbtn a{
+    text-decoration: none;
+    color: rgba(220, 20, 60, 0.938);
+    z-index: 500;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.servicesbtn a:hover{
+    color: grey;
+}
+.servicesbtn:hover{
+    border: 0.5px solid crimson;
+}
+.mycards{
+    overflow: hidden;
+}
+.mycardtitle a{
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 16px;
+}
+.mycardsref{
+    overflow: hidden;
+}
+.myfirstcard{
+    position: relative;
+    left: 1.5rem;
+    top: 5rem;
+}
+.oilplant{
+    margin-top: 7rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 6rem;
+}

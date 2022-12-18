@@ -1,0 +1,192 @@
+.navbarcontents {
+    position: fixed;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: cornsilk;    
+    z-index: 500;
+}
+
+.navars-branding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 0.3rem;
+
+}
+
+.gear {
+    font-size: 20px;
+    color: crimson;
+    margin-bottom: 0.3rem;
+}
+
+.navars-brandings {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.un {
+    background-image: linear-gradient(to left, rgb(206, 2, 2) 30%, rgb(228, 54, 54) 70%);
+    border: 0px sold red;
+    border-radius: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.navbtn {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navcontainers {
+    display: none;
+
+}
+
+.navbtninput {
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, crimson 30%, rgb(228, 54, 54) 70%);
+}
+
+.navbtninputs:hover,
+.navbtninput:hover {
+    color: rgb(255, 127, 133);
+    background-image: linear-gradient(to left, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 70%);
+}
+
+.navbtninputs {
+    border: none;
+    padding: 0.4rem 0.9rem;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, crimson 30%, rgb(228, 54, 54) 70%);
+}
+
+.navbarcontainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+@media screen and (min-width:900px) {
+    .myoffcanvas {
+        display: none;
+    }
+
+    .navbarcontents {
+        width: 100%;
+        padding: 1rem 0;
+        background-color: cornsilk;
+        position: fixed;
+    }
+
+    .navars-branding {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        gap: 0.3rem;
+        justify-content: flex-start;
+    }
+
+    .gear {
+        font-size: 30px;
+        color: crimson;
+        margin-bottom: 0.3rem;
+    }
+
+    .navars-brandings {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 0.7rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .un {
+        background-image: linear-gradient(to left, rgb(206, 2, 2) 30%, rgb(228, 54, 54) 70%);
+        border: 0px sold red;
+        border-radius: 100%;
+        font-size: 25px;
+        color: white;
+        font-weight: 600;
+    }
+
+    .navcontainers {
+        width: 55%;
+        color: black;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .navbtninput {
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to left, crimson 30%, rgb(228, 54, 54) 70%);
+    }
+
+    .navbtninputs:hover,
+    .navbtninput:hover {
+        color: rgb(255, 127, 133);
+        background-image: linear-gradient(to left, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 70%);
+    }
+
+    .navbtninputs {
+        border: none;
+        padding: 0.5rem 2rem;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(to left, crimson 30%, rgb(228, 54, 54) 70%);
+    }
+
+    .navbarcontainers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        margin: auto;
+
+    }
+
+    .navslink {
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .navslink:hover {
+        color: crimson;
+        border: 1px solid crimson;
+        padding: 0.5rem 1rem;
+    }
+
+}
