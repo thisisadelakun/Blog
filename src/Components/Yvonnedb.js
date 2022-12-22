@@ -28,7 +28,7 @@ const Yvonnedb = () => {
                     4:45 a.m.
                 </p>
                 <p className='yvonnetext'>
-                    Wake and shower, I start  the day with a morning meeting on safety drills and general precautions. The goal of this meeting is to make sure everyone knows the plan and has the knowledge and skills to perform the work. When we have a new crew member (aka “green hand”), they are assigned a mentor. The mentor is a more seasoned crew member and is responsible for showing the new employee how we safely get the work done. We all work rotational schedules: I work four weeks on/two weeks off. My partner works three weeks on/one week off. I have been on the same offshore rig since I moved from onshore.
+                    Wake and shower, I start  the day with a morning meeting on safety drills and general precautions. The goal of this meeting is to make sure everyone knows the plan and has the knowledge and skills to perform the work. When we have a new crew member (aka “green hand”), they are assigned a mentor. The mentor is a more seasoned crew member and is responsible for showing the new employee how we safely get the work done. We all work rotational schedules: I work four weeks on and two weeks off. My partner works three weeks on and one week off. I have been on the same offshore rig since I moved from onshore.
                 </p>
 
                 <p className='yvonnetext'>

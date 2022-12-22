@@ -75,6 +75,7 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to left, crimson 30%, rgb(228, 54, 54) 70%);
+    text-decoration: none;
 }
 
 .navbarcontainers {

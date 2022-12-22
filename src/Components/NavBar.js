@@ -15,8 +15,8 @@ const NavBar = () => {
                     <OffCanvas />
                 </div>
                 <div className="navars-branding">
-                        < VscSettingsGear className='gear' />
-                        <p className="navars-brandings">WomenIn<span className='un'>OIL</span></p>
+                    < VscSettingsGear className='gear' />
+                    <p className="navars-brandings">WomenIn<span className='un'>OIL</span></p>
                 </div>
                 <div className='navcontainers'>
                     <Nav className='navcontainer' as="ul">
@@ -35,8 +35,8 @@ const NavBar = () => {
                     </Nav>
                 </div>
                 <div className='navbtn'>
-                    <button  className='navbtninput'>
-                        <input  className='navbtninputs' type="button" value="Subscribe Now" />
+                    <button className='navbtninput'>
+                        <a  href='#footercontainer' className='navbtninputs'>Subscribe Now</a>
                     </button>
                     {/* <OffCanvas/> */}
                 </div>

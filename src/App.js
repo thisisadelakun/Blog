@@ -8,6 +8,7 @@ import Yvonnedb from './Components/Yvonnedb';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 import Main from './Components/Main';
+import DidYouKnow from './Components/DidYouKnow';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='About' element={<About/>} />
           {/* <Route path='Contact' element={<Contact/>} /> */}
           <Route path='Yvonnedb' element={<Yvonnedb/>} />
+          <Route path='DidYouKnow' element={<DidYouKnow/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>
