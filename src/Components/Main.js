@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/Main.css'
 import OilPlant from '../Assets/oilplant.png'
 import Card from 'react-bootstrap/Card';
-import About from './About';
+// import About from './About';git
 // import Footer from './Footer';
 // import Render from './Render';
 
