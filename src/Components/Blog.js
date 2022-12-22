@@ -22,7 +22,7 @@ const Blog = () => {
                             <Card.Text>
                                 <div>
                                     <div className="dateandwriterblog">
-                                        <small>by Yvonne Weidman</small> <br />
+                                        <small>by Kathy Price</small> <br />
                                         <small><MdDateRange /> December 01, 2022</small>
                                     </div>
                                 </div>

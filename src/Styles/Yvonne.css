@@ -1,8 +1,13 @@
 .yvonneblog{
     box-sizing: border-box;
     width: 100%;
-    margin: auto;
     font-weight: 500;
+    background-image: url('../Assets/wave-haikei.svg');
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position-y: left;  
+    margin-top: 3rem;
+    background-color: rgba(255, 255, 255, 0.712);
 }
 .coltextyvonne{
     padding:10rem 0;
@@ -15,9 +20,10 @@
 
     justify-content: center;
 }
-h6{
+.h5offshore{
     overflow: hidden;
-    font-size: 14px;
+    font-size: 15px;
+    margin-top: 1rem;
 }
 .dateandwriter{
     text-align: left;
@@ -27,4 +33,17 @@ h6{
 }
 .dateandwriter{
     font-size: 10px;
+}
+.question1,
+.firsttime{
+    font-size: 14px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+.yvonnetext{
+    font-size: 13px;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
 }

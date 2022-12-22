@@ -24,13 +24,13 @@ const OffCanvas = () => {
                 <Offcanvas.Body className="myclosebutton">
                     <div className='mycanvaslink'>
                         <ul className="mycanvaslinks">
-                            <Link to='/Home'
+                            <Link to='/'
                                 onClick={() => closeMenu()} exact>
-                                <li className='mynavsection'><a className='mynavsection' href="#about">HOME</a></li>
+                                <li className='mynavsection'><a className='mynavsection' href='#my-main'>HOME</a></li>
                             </Link>
                             <Link to='/Blog'
                                 onClick={() => closeMenu()} exact>
-                                <li className='mynavsection'><a className='mynavsection' href="#about">BLOG</a></li>
+                                <li className='mynavsection'><a className='mynavsection' href="#myblog">BLOG</a></li>
                             </Link>
 
                             <Link to='/ABOUT'
@@ -38,9 +38,9 @@ const OffCanvas = () => {
                                 <li className='mynavsection'><a className='mynavsection' href="#my-works">ABOUT</a></li>
                             </Link>
 
-                            <Link to='/Footer'
+                            <Link
                                 onClick={() => closeMenu()} exact>
-                                <li className='mynavsection'><a className='mynavsection' href="#contact-me">CONTACT</a></li>
+                                <li className='mynavsection'><a className='mynavsection' href="#footercontainer">CONTACT</a></li>
                             </Link>
                         </ul>
                     </div>

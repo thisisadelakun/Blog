@@ -15,13 +15,13 @@ const NavBar = () => {
                     <OffCanvas />
                 </div>
                 <div className="navars-branding">
-                    < VscSettingsGear className='gear' />
-                    <p className="navars-brandings">WomenIn<span className='un'>OIL</span></p>
+                        < VscSettingsGear className='gear' />
+                        <p className="navars-brandings">WomenIn<span className='un'>OIL</span></p>
                 </div>
                 <div className='navcontainers'>
                     <Nav className='navcontainer' as="ul">
                         <Nav.Item as="li">
-                            <Nav.Link href="/Home"><span className="navslink">HOME</span></Nav.Link>
+                            <Nav.Link href="/"><span className="navslink">HOME</span></Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
                             <Nav.Link href='/Blog' eventKey="link-1"><span className="navslink">BLOG</span></Nav.Link>
@@ -30,13 +30,13 @@ const NavBar = () => {
                             <Nav.Link href='/About' eventKey="link-2"><span className="navslink">ABOUT</span></Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
-                            <Nav.Link href='/Contact' eventKey="link-2"><span className="navslink">CONTACT</span></Nav.Link>
+                            <Nav.Link href='#footercontainer' eventKey="link-2"><span className="navslink">CONTACT</span></Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </div>
                 <div className='navbtn'>
-                    <button className='navbtninput'>
-                        <input className='navbtninputs' type="button" value="Subscribe Now" />
+                    <button  className='navbtninput'>
+                        <input  className='navbtninputs' type="button" value="Subscribe Now" />
                     </button>
                     {/* <OffCanvas/> */}
                 </div>
