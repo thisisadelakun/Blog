@@ -3,6 +3,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { Link } from 'react-router-dom';
 import '../Styles/OffCanvas.css'
+import { VscSettingsGear } from 'react-icons/vsc'
 
 const OffCanvas = () => {
     const [show, setShow] = useState(false);
@@ -14,29 +15,32 @@ const OffCanvas = () => {
         <div className='myoffcanvas'>
             <GiHamburgerMenu onClick={handleShow} style={{ color: "#DC143C", width: "30px", height: "30px", cursor: "pointer" }} />
             <Offcanvas show={show} onHide={handleClose} style={{ width: "60%" }}>
-                <Offcanvas.Header className='myclosebutton' closeButton>
-                    <Offcanvas.Title></Offcanvas.Title>
+                <Offcanvas.Header className='myclosebutton'>
+                    <Offcanvas.Title>                <div className="navars-branding">
+                        < VscSettingsGear className='gear' />
+                        <p className="navars-brandings">WomenIn<span className='un'>OIL</span></p>
+                    </div></Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body className="myclosebutton">
                     <div className='mycanvaslink'>
                         <ul className="mycanvaslinks">
-                            <Link to='/'
+                            <Link to='/Home'
                                 onClick={() => closeMenu()} exact>
-                                <li className='mynavsection'><a className='mynavsection' href="#about">Home</a></li>
+                                <li className='mynavsection'><a className='mynavsection' href="#about">HOME</a></li>
                             </Link>
-                            <Link to='/'
+                            <Link to='/Blog'
                                 onClick={() => closeMenu()} exact>
-                                <li className='mynavsection'><a className='mynavsection' href="#about">About</a></li>
-                            </Link>
-
-                            <Link to='/'
-                                onClick={() => closeMenu()} exact>
-                                <li className='mynavsection'><a className='mynavsection' href="#my-works">Portfolio</a></li>
+                                <li className='mynavsection'><a className='mynavsection' href="#about">BLOG</a></li>
                             </Link>
 
-                            <Link to='/'
+                            <Link to='/ABOUT'
                                 onClick={() => closeMenu()} exact>
-                                <li className='mynavsection'><a className='mynavsection' href="#contact-me">Contact</a></li>
+                                <li className='mynavsection'><a className='mynavsection' href="#my-works">ABOUT</a></li>
+                            </Link>
+
+                            <Link to='/Footer'
+                                onClick={() => closeMenu()} exact>
+                                <li className='mynavsection'><a className='mynavsection' href="#contact-me">CONTACT</a></li>
                             </Link>
                         </ul>
                     </div>

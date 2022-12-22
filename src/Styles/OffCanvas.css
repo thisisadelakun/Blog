@@ -1,5 +1,5 @@
 .myclosebutton{
-    background-color: crimson;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 .myoffcanvas{
@@ -11,15 +11,11 @@
     
 
 }
-.mycanvasheader{
-    z-index: 500;
-    background: crimson;
-}
 
 .mycanvasbody{
     z-index: 500;
     text-align: left;
-    background: crimson;
+    /* background: crimson; */
     overflow-y: hidden;
     background-blend-mode: soft-light;
     background-position-x: center;
@@ -29,18 +25,20 @@
 .mycanvaslink{
     text-align: left;
     width: 100%;
+    text-decoration: none; 
 
 }
 .mycanvaslinks{
     margin-left: -2rem;
     padding-bottom: 10rem;
+    text-decoration: none; 
     width: 100%;
     
 }
 .mycanvaslinks a{
     font-size: 15px;
     font-weight: 400;
-    color:  white;
+    color: crimson;
     overflow: hidden;
     text-decoration: none;   
 }
@@ -49,6 +47,5 @@
        
 }
 .mynavsection{
-    border-bottom: 1px solid crimson;
     padding: 1rem 0rem;
 }

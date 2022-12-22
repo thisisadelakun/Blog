@@ -1,8 +1,11 @@
 import React from 'react'
+import Yvonnedb from './Yvonnedb'
 
 const Magazine = () => {
   return (
-    <div>Magazine</div>
+    <div>
+      <Yvonnedb/>
+    </div>
   )
 }
 

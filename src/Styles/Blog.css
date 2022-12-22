@@ -1,0 +1,26 @@
+.allcardblog {
+    display: grid;
+    width: 90%;
+    flex-direction: row;
+    padding: 10rem 0;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.cardblog {
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+.blogh3 {
+    font-size: 15px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+.dateandwriterblog {
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}

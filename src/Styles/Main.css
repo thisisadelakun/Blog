@@ -49,25 +49,50 @@ h1,h2,h3{
 .servicesbtn:hover{
     border: 0.5px solid crimson;
 }
+.mainsecondtext{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    height: 100%;
+}
 .mycards{
     overflow: hidden;
 }
+.mycardtitle1 a,
 .mycardtitle a{
     text-decoration: none;
     overflow: hidden;
     font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
 }
-.mycardsref{
-    overflow: hidden;
+.mycardtitle1{
+    padding-bottom: 1rem;
 }
+.byyvonne{
+    font-size: 11px;
+    position: absolute;
+    left: 6.6rem;
+    overflow-y: hidden;
+    color: rgba(0, 0, 0, 0.603);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .myfirstcard{
     position: relative;
-    left: 1.5rem;
-    top: 5rem;
+    top: 2rem;
+    text-align: left;
 }
 .oilplant{
-    margin-top: 7rem;
-    width: 90%;
-    margin: auto;
-    margin-top: 6rem;
+    margin-top: 3.0rem;
+    text-align: left;
+}
+.oilplant-text{
+    height: 100%;
+    padding: 2rem 0rem;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
 }

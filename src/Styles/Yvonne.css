@@ -1,0 +1,30 @@
+.yvonneblog{
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    font-weight: 500;
+}
+.coltextyvonne{
+    padding:10rem 0;
+    width: 80%;
+    margin: auto;
+}
+.yvonneheader{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+h6{
+    overflow: hidden;
+    font-size: 14px;
+}
+.dateandwriter{
+    text-align: left;
+}
+.yvonnetext {
+    text-align: left;
+}
+.dateandwriter{
+    font-size: 10px;
+}
