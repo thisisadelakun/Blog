@@ -26,7 +26,7 @@ const Main = () => {
               <Card.Header>Table of Content</Card.Header>
               <Card.Body className='mycards'>
                 <Card.Title className='mycardtitle1'>
-                  <a className='mycardsref1' href="#top">- Life of an Offshore Medic <br /><small className='byyvonne'>  by Yvoone Weidmann</small></a>
+                  <a className='mycardsref1' href="#top">- Life of an Offshore Medic <br /><small className='byyvonne'>  by Kathy Price</small></a>
                 </Card.Title>
                 <Card.Title className='mycardtitle'>
                   <a className='mycardsref' href="#top">- Did you Know?</a>

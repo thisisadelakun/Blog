@@ -27,13 +27,12 @@
 }
 .dateandwriter{
     text-align: left;
+    font-size: 10px;
 }
 .yvonnetext {
     text-align: left;
 }
-.dateandwriter{
-    font-size: 10px;
-}
+
 .question1,
 .firsttime{
     font-size: 14px;

@@ -1,0 +1,57 @@
+.didyknow{
+    margin-top: 1rem;
+    position: relative;
+    background-image: url('../Assets/layered-steps-haikei.svg');
+    background-blend-mode: soft-light;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: top;  
+    background-color: rgba(255, 255, 255, 0.712);
+}
+.didyouknowblogs{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.didyouknowcol{
+    width: 90%;
+    margin: auto;
+    padding: 6rem 0rem;
+}
+.didyouknowcols{
+    margin-top: 1.5rem;
+}
+.didyouknowp1{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.didyouknowh3{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.dateandwriter1{
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+.didyouknowp{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;   
+}
+.didyouknowsmall{
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
