@@ -42,6 +42,11 @@ h3 {
     margin: 2rem 0;
 }
 
+.magaz1,
+.magaz2 {
+    display: none;
+}
+
 .servicesbtn a {
     text-decoration: none;
     color: rgba(220, 20, 60, 0.938);
@@ -90,7 +95,7 @@ h3 {
 .mycardtitle a {
     text-decoration: none;
     overflow: hidden;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -99,7 +104,7 @@ h3 {
 }
 
 .byyvonne {
-    font-size: 11px;
+    font-size: 12px;
     position: absolute;
     left: 2rem;
     overflow-y: hidden;
@@ -123,8 +128,39 @@ h3 {
 .oilplant-text {
     height: 100%;
     padding: 2rem 0rem;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.latestnews {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.latestnews {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.latestnewsh5 {
+    font-weight: 700;
+    font-size: 25px;
+    border-bottom: 2px solid crimson;
+    margin-bottom: 3rem;
+}
+
+.latestp {
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.latesta {
+    color: black;
+    font-size: 20px;
+}
+
+.latestsmall {
+    color: grey;
+    font-size: 18px;
+
 }
 
 .advertise {
@@ -148,6 +184,8 @@ h3 {
     border: 0.5px solid rgba(91, 91, 241, 0.884);
     padding: 0.5rem;
     box-shadow: 0 4px 8px 0 rgba(189, 108, 108, 0.2), 0 6px 20px rgba(219, 27, 27, 0.19);
+    width: 90%;
+    margin: auto;
 
 }
 
@@ -156,6 +194,7 @@ h3 {
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
+    margin-top: 1rem;
 }
 
 .advertisea {
@@ -165,6 +204,25 @@ h3 {
     color: crimson;
     font-size: 13px;
     font-family: 'Josefin Sans', sans-serif;
+    margin-top: 8px;
+}
 
+@media screen and (min-width:769px) {}
 
+@media screen and (min-width:1024px) {
+
+    .magaz1,
+    .magaz2 {
+        display: contents;
+        width: fit-content;
+    }
+    .magaz{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 75%;
+        top: 22%;
+        width: fit-content;
+        height: 100%;
+    }
 }

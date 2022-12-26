@@ -2,17 +2,18 @@ import React from 'react'
 import '../Styles/DidYouKnow.css'
 import Oilfield2 from '../Assets/Oil-fields.jpg'
 import { MdDateRange } from 'react-icons/md'
-import {BsArrowLeft} from 'react-icons/bs'
+import { BsArrowLeft } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import RelatedPost from './RelatedPost'
 
 const DidYouKnow = () => {
     return (
         <div className='didyknow' id='didyouknow'>
             <div className="didyouknowcol">
                 <Link to='/Blog'>
-                <p className='didyouknowblogs'>
-                    <BsArrowLeft/> Blogs
-                </p>
+                    <p className='didyouknowblogs'>
+                        <BsArrowLeft /> Blogs
+                    </p>
                 </Link>
                 <h3 className="didyouknowh3">
                     Did You Know? <br />
@@ -23,7 +24,7 @@ const DidYouKnow = () => {
                     <small><MdDateRange /> December 01, 2022</small>
                 </div>
                 <div className="didyouknowimage1">
-                    <img className='img-fluid' src={Oilfield2} alt=""/>
+                    <img className='img-fluid' src={Oilfield2} alt="" />
                 </div>
                 <div className="didyouknowcols">
                     <p className='didyouknowp1'>
@@ -73,14 +74,33 @@ const DidYouKnow = () => {
                         Oil has a variety of nicknames, including 'Texas Tea', 'Black Gold', 'rock oil, 'petroleum', 'crude', and many more.
                     </p>
                     <p className='didyouknowp'>
-                        6. Oil has many nicknames
+                        7. Bitumen was a form of punishment in ancient Assyria.
                     </p>
                     <p className='didyouknowsmall'>
-                        Oil has a variety of nicknames, including 'Texas Tea', 'Black Gold', 'rock oil, 'petroleum', 'crude', and many more.
+                        In ancient Assyria, lawbreakers suffered a barbaric punishment. Bitumen a black, viscous form of petroleum would be poured over the heads of offenders. This brutal punishment which has all the trappings of a Game of Thrones scene was elaborated upon at various times in history to include feathers and a walk of shame, known as 'tarring and feathering'.
+                    </p>
+                    <p className='didyouknowp'>
+                        8. The USA consumes the most oil
+                    </p>
+                    <p className='didyouknowsmall'>
+                        The USA consumes the most oil in the world by far, consuming over 19,000,000 barrels daily. The UK sits at 15th place, consuming approximately 1,500,000 barrels per day.
+                    </p>
+                    <p className='didyouknowp'>
+                        9. Oil transforms to liquid at room temperature
+                    </p>
+                    <p className='didyouknowsmall'>
+                        Oil transforms to liquid at room temperature. This is because oils contain more carbon-to-carbon bonds than fats. The low melting point is because of the high unsaturation of oil. The carbon-to-carbon double bonds distort the molecules' shape, so they cannot pack closely together (in the form of a solid), hence melting into a liquid.
+                    </p>
+                    <p className='didyouknowp'>
+                        10. Varities of Plant Oil
+                    </p>
+                    <p className='didyouknowsmall'>
+                    Alongside olive oil, sunflower oil and vegetable oil, there are more unusual varieties of plant oil, such as the pequi oil, used for cooking, which comes from the seeds of the Canarium Ovatum plant in Brazil.
                     </p>
 
 
                 </div>
+                <RelatedPost />
             </div>
         </div>
     )

@@ -3,11 +3,24 @@ import Pic11 from '../Assets/Yvonne2.jpeg'
 import Pic22 from '../Assets/Yvonne1.jpeg'
 import Pic33 from '../Assets/Yvonne3.jpeg'
 import { MdDateRange } from 'react-icons/md'
+import {BsArrowLeft} from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 import '../Styles/Yvonne.css'
+import RelatedPost from './RelatedPost'
 
 const Yvonnedb = () => {
     return (
         <div className='yvonneblog' id='yvonneblog'>
+            <Link className='yvonnebloglink' to='/Blog'>
+                <p className='didyouknowblogs'>
+                    <BsArrowLeft/> Blogs
+                </p>
+                </Link>
+            <div className='headeryvonnetext2'>
+                <h1 className='women2'>Women</h1>
+                <h1 className='women2'>In Oil World</h1>
+                <h2 className='research2'>MAGAZINE</h2>
+            </div>
             <div className="coltextyvonne">
                 <div className="yvonneheader">
                     <div className='pic11'>
@@ -67,6 +80,7 @@ const Yvonnedb = () => {
                     I love my job. Especially the autonomy and the travel to unusual places. No two days are the same. It is challenging, but I am always learning and that is really important to me.
                 </p>
             </div>
+            <RelatedPost/>
         </div>
     )
 }

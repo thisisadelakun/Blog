@@ -1,48 +1,175 @@
-.yvonneblog{
-    box-sizing: border-box;
+.yvonneblog {
+    overflow: hidden;
     width: 100%;
-    font-weight: 500;
-    background-image: url('../Assets/wave-haikei.svg');
-    background-blend-mode: screen;
+    height: fit-content;
+    min-height: 100vh;
+    position: relative;
+    background-image: url('../Assets/pattern-background-desktop.svg');
+    background-blend-mode: soft-light;
+    background-position-x: center;
     background-repeat: no-repeat;
-    background-position-y: left;  
-    margin-top: 3rem;
+    background-position-y: top;
+    margin-top: 4.5rem;
     background-color: rgba(255, 255, 255, 0.712);
 }
-.coltextyvonne{
-    padding:10rem 0;
+
+.yvonnebloglink {
+    z-index: 400;
+    position: absolute;
+    top: 2%;
+    left: 2rem;
+    width: 90%;
+    margin: auto;
+
+}
+
+.headeryvonnetext2 {
+    text-align: left;
+    z-index: 400;
+    position: absolute;
+    top: 4%;
+    width: 90%;
+    margin: auto;
+    margin: 1rem 2rem;
+}
+
+.women2 {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    z-index: 400;
+
+}
+
+.research2 {
+    color: crimson;
+    font-weight: 700;
+    font-size: 35px;
+    margin: auto;
+    z-index: 400;
+
+}
+
+.coltextyvonne {
+    padding-top: 20rem;
     width: 80%;
     margin: auto;
 }
-.yvonneheader{
+
+.yvonneheader {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
 }
-.h5offshore{
+
+.h5offshore {
     overflow: hidden;
     font-size: 15px;
     margin-top: 1rem;
 }
-.dateandwriter{
+
+.dateandwriter {
     text-align: left;
     font-size: 10px;
 }
+
 .yvonnetext {
     text-align: left;
 }
 
 .question1,
-.firsttime{
+.firsttime {
     font-size: 14px;
     text-align: left;
     font-weight: 700;
     margin-top: 1.5rem;
 }
-.yvonnetext{
+
+.yvonnetext {
     font-size: 13px;
     text-align: left;
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+@media screen and (min-width: 769px) {
+    .women2 {
+        color: black;
+        font-size: 40px;
+        font-weight: 700;
+        z-index: 400;
+
+    }
+
+    .research2 {
+        color: crimson;
+        font-weight: 700;
+        font-size: 50px;
+        margin: auto;
+        z-index: 400;
+
+    }
+
+    .coltextyvonne {
+        padding-top: 25rem;
+    }
+
+    .h5offshore {
+        overflow: hidden;
+        font-size: 25px;
+        margin-top: 2rem;
+    }
+
+    .dateandwriter {
+        font-size: 15px;
+    }
+
+    .question1,
+    .firsttime {
+        font-size: 18px;
+        margin-top: 2rem;
+    }
+    .yvonnetext {
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width: 1440px) {
+    .women2 {
+        color: black;
+        font-size: 45px;
+        font-weight: 700;
+        z-index: 400;
+
+    }
+
+    .research2 {
+        color: crimson;
+        font-weight: 700;
+        font-size: 60px;
+        margin: auto;
+        z-index: 400;
+
+    }
+
+
+    .h5offshore {
+        overflow: hidden;
+        font-size: 30px;
+        margin-top: 2rem;
+    }
+
+    .dateandwriter {
+        font-size: 20px;
+    }
+
+    .question1,
+    .firsttime {
+        font-size: 23px;
+        margin-top: 2rem;
+    }
+    .yvonnetext {
+        font-size: 20px;
+    }
+
 }

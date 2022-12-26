@@ -1,24 +1,26 @@
-.myblog{
-    margin-top: 4rem;
+.myblog {
+    margin-top: 4.5rem;
     position: relative;
     background-image: url('../Assets/layered-steps-haikei.svg');
     background-blend-mode: soft-light;
     background-position-x: center;
     background-repeat: no-repeat;
-    background-position-y: top;  
+    background-position-y: top;
     background-color: rgba(255, 255, 255, 0.712);
 }
-.oilfield3{
-    width: 95%;
-    flex-direction: row;
-    padding-top: 2rem;
+
+.headeryvonnetext3 {
+    padding-top: 5rem;
     margin: auto;
+    text-align: left;
+    padding-left: 2rem;
 }
+
 .allcardblog {
     display: grid;
     width: 95%;
     flex-direction: row;
-    padding: 10rem 0;
+    padding: 7rem 0;
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -41,23 +43,80 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
 }
-.acknwoledgement{
+
+.acknwoledgement {
     background-color: rgba(241, 234, 234, 0.575);
 }
-.acknowledge{
+
+.acknowledge {
     width: 90%;
     margin: auto;
     padding: 2rem 0;
     text-align: left;
 }
-.acknowledgeh3{
+
+.acknowledgeh3 {
     font-weight: 700;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 }
-.acknowledgep{
+
+.acknowledgep {
     font-weight: 400;
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width:769px) {
+    .headeryvonnetext3 {
+        padding-top: 4rem;
+    }
+
+    .allcardblog {
+        padding: 10rem 0;
+        gap: 4rem;
+        margin: auto;
+        display: grid;
+        width: fit-content;
+        grid-template-columns: repeat(2, 1fr);
+        place-content: center;
+        margin: auto;
+    }
+    .acknowledge {
+        width: 80%;
+        margin: auto;
+        padding: 2rem 0;
+        text-align: left;
+    }
+    .acknowledgeh3 {
+        font-size: 25px;
+    }
+    
+    .acknowledgep {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .allcardblog {
+        gap: 2rem;
+        margin: auto;
+        display: grid;
+        width: fit-content;
+        grid-template-columns: repeat(3, 1fr);
+        place-content: center;
+        margin: auto;
+    }
+}
+@media screen and (min-width:1440px) {
+    .allcardblog {
+        gap: 2rem;
+        margin: auto;
+        display: grid;
+        width: fit-content;
+        grid-template-columns: repeat(4, 1fr);
+        place-content: center;
+        margin: auto;
+    }
 }

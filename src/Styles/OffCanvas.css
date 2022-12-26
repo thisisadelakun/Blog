@@ -15,7 +15,6 @@
 .mycanvasbody{
     z-index: 500;
     text-align: left;
-    /* background: crimson; */
     overflow-y: hidden;
     background-blend-mode: soft-light;
     background-position-x: center;
@@ -30,9 +29,10 @@
 }
 .mycanvaslinks{
     margin-left: -2rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
     text-decoration: none; 
     width: 100%;
+    
     
 }
 .mycanvaslinks a{
@@ -41,6 +41,8 @@
     color: crimson;
     overflow: hidden;
     text-decoration: none;   
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
 }
 .mycanvaslinks a:hover{
     color:  black;

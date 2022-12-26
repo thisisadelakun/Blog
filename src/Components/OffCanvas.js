@@ -16,10 +16,14 @@ const OffCanvas = () => {
             <GiHamburgerMenu onClick={handleShow} style={{ color: "#DC143C", width: "30px", height: "30px", cursor: "pointer" }} />
             <Offcanvas show={show} onHide={handleClose} style={{ width: "60%" }}>
                 <Offcanvas.Header className='myclosebutton'>
-                    <Offcanvas.Title>                <div className="navars-branding">
-                        < VscSettingsGear className='gear' />
-                        <p className="navars-brandings">WomenIn<span className='un'>OIL</span></p>
-                    </div></Offcanvas.Title>
+                    <Offcanvas.Title>
+                        <Link to='/' className="navars-branding" onClick={() => closeMenu()} exact>
+                            <div className="navars-branding">
+                                < VscSettingsGear className='gear' />
+                                <p className="navars-brandings" >WomenIn<span className='un'>OIL</span></p>
+                            </div>
+                        </Link>
+                    </Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body className="myclosebutton">
                     <div className='mycanvaslink'>
@@ -43,6 +47,10 @@ const OffCanvas = () => {
                                 <li className='mynavsection'><a className='mynavsection' href="#footercontainer">CONTACT</a></li>
                             </Link>
                         </ul>
+
+                    </div>
+                    <div className="text-center p-3 c2020">
+                        © 2020 WomenIn OIL World All right Reserved.
                     </div>
                 </Offcanvas.Body>
             </Offcanvas>

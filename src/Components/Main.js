@@ -17,7 +17,7 @@ const Main = () => {
           <h2 className='research'>Global Oil and Gas Research</h2>
         </div>
         <div className='services'>
-          <button className='servicesbtn' type="submit"><a href="#footercontainer">News Letter</a></button>
+          <button className='servicesbtn' type="submit"><a href="#latestnews">Latest News</a></button>
           <button className='servicesbtn' type="submit"><a href="#advertise">Advertise</a></button>
         </div>
       </div>
@@ -45,6 +45,64 @@ const Main = () => {
             + The processes and systems involved in producing and distributing oil and gas are highly complex, capital-intensive, and require state-of-the-art technology. Historically, natural gas has been linked to oil, mainly because of the production process or upstream side of the business. <br /> <br />
             + For much of the history of the industry, natural gas was viewed as a nuisance and even today is flared in large quantities in some parts of the world, including China, Canada and the  United States. Natural gas has taken on a more prominent role in the Global's energy supply as a consequence of shale gas development in the United States, as mentioned above, and its lower greenhouse gas emissions when combusted when compared to oil and coal.
           </p>
+
+          <div className='magaz'>
+            <div className="magaz1">
+              <div className='myfirstcard'>
+                <Card border="light" style={{ width: '17rem', height: '14rem' }}>
+                  <Card.Header className='toparticle' style={{ color: 'grey' }}>News Letter</Card.Header>
+                  <Card.Body className='mycards'>
+                    <Card.Title className='mycardtitle'>
+                      <a className='mycardsref1' href="/">- Merry Christmas<br /><small className='byyvonne'>  As we go into the holidays...</small></a>
+                    </Card.Title>
+                    <Card.Title className='mycardtitle'>
+                      <a className='mycardsref' href="/">- Shoud you be worry?<br /><small className='byyvonne'>  Oil Scarcity looming around...</small></a>
+                    </Card.Title>
+                    <Card.Title className='mycardtitle'>
+                      <a className='mycardsref' href="/">- Chevron, Shell and others <br /><small className='byyvonne'> The big guns in industy moving towards...</small></a>
+                    </Card.Title>
+                  </Card.Body>
+                </Card>
+              </div>
+
+            </div>
+            <div className="magaz2">
+              <div className='myfirstcard'>
+                <Card border="light" style={{ width: '17rem', height: '12rem' }}>
+                  <Card.Header className='toparticle' style={{ color: 'grey' }}>Magazine</Card.Header>
+                  <Card.Body className='mycards'>
+                    <Card.Title className='mycardtitle'>
+                      <a className='mycardsref1' href="/Yvonnedb">- Life of an Offshore Medic <br /><small className='byyvonne'>  by Kathy Price</small></a>
+                    </Card.Title>
+                    <Card.Title className='mycardtitle'>
+                      <a className='mycardsref' href="/">- Surving Oil Spillage<br /><small className='byyvonne'>  by Julian Marshall</small></a>
+                    </Card.Title>
+                    <Card.Title className='mycardtitle'>
+                      <a className='mycardsref' href="/">- How we got it Right <br /><small className='byyvonne'>  by Brenda Woods</small></a>
+                    </Card.Title>
+                  </Card.Body>
+                </Card>
+              </div>
+            </div>
+          </div>
+
+          <div className="latestnews" id='latestnews'>
+            <h5 className="latestnewsh5" >
+              Latest News
+            </h5>
+            <div className="latestp">
+              <a href="/" className="latesta">U.S. Shale Growth Overshadowed by Obstacles</a> <br />
+              <small className='latestsmall'>The oil and gas industry has long been a powerful force in earning profits while...</small>
+            </div>
+            <div className="latestp">
+              <a href="/" className="latesta">Power the Nation with Predictive Technology</a> <br />
+              <small className='latestsmall'>With pressure increasing on the oil and gas industry to minimize costs while producing more and more energy, and large...</small>
+            </div>
+            <div className="latestp">
+              <a href="/" className="latesta">Chevron Hits Motherlode in the Mediterranean</a> <br />
+              <small className='latestsmall'>Oil and gas giant, Chevron Hits Motherlode in the Mediterranean...</small>
+            </div>
+          </div>
         </div>
         <div className='relatedpost'>
           <RelatedPost />
