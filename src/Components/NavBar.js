@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import '../Styles/NavBar.css'
 import { VscSettingsGear } from 'react-icons/vsc'
 import OffCanvas from './OffCanvas';
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,10 +15,12 @@ const NavBar = () => {
                 <div className='mycanvas'>
                     <OffCanvas />
                 </div>
-                <div className="navars-branding">
-                    < VscSettingsGear className='gear' />
-                    <p className="navars-brandings">WomenIn<span className='un'>OIL</span></p>
-                </div>
+                <Link to='/' className="navars-branding">
+                    <div className="navars-branding">
+                        < VscSettingsGear className='gear' />
+                        <p className="navars-brandings" >WomenIn<span className='un'>OIL</span></p>
+                    </div>
+                </Link>
                 <div className='navcontainers'>
                     <Nav className='navcontainer' as="ul">
                         <Nav.Item as="li">
@@ -36,7 +39,7 @@ const NavBar = () => {
                 </div>
                 <div className='navbtn'>
                     <button className='navbtninput'>
-                        <a  href='#footercontainer' className='navbtninputs'>Subscribe Now</a>
+                        <a href='#footercontainer' className='navbtninputs'>Subscribe Now</a>
                     </button>
                     {/* <OffCanvas/> */}
                 </div>

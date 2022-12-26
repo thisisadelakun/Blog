@@ -1,9 +1,13 @@
 .aboutpage {
     overflow-x: hidden;
-    background-image: url(../Assets/wave-haikei.svg);
-    background-blend-mode: screen;
-    background-color: rgba(220, 20, 60, 0);
-    height: 100%;
+    margin-top: 4rem;
+    position: relative;
+    background-image: url('../Assets/layered-steps-haikei.svg');
+    background-blend-mode: soft-light;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: top;  
+    background-color: rgba(255, 255, 255, 0.712);
 }
 .about-text{
     padding-top: 20rem;

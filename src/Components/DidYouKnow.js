@@ -3,14 +3,17 @@ import '../Styles/DidYouKnow.css'
 import Oilfield2 from '../Assets/Oil-fields.jpg'
 import { MdDateRange } from 'react-icons/md'
 import {BsArrowLeft} from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const DidYouKnow = () => {
     return (
         <div className='didyknow' id='didyouknow'>
             <div className="didyouknowcol">
+                <Link to='/Blog'>
                 <p className='didyouknowblogs'>
                     <BsArrowLeft/> Blogs
                 </p>
+                </Link>
                 <h3 className="didyouknowh3">
                     Did You Know? <br />
                     Top Ten Interesting Oil and Gas Facts

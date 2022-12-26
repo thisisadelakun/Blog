@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Footer.css'
+import {BsArrowUpCircle} from 'react-icons/bs'
 
 const Footer = () => {
     return (
@@ -27,11 +28,12 @@ const Footer = () => {
                                     </button>
                                 </div>
                             </div>
-                            <div className="text-center p-3">
+                            <div className="text-center p-3 c2020">
                                 © 2020 WomenIn OIL World All right Reserved.
                             </div>
                         </form>
                     </section>
+                    <a className='gotops' href="#top"><BsArrowUpCircle/></a>
                 </div>
             </footer>
         </div>

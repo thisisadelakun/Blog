@@ -12,6 +12,8 @@
     align-items: center;
     text-align: center;
     gap: 0.3rem;
+    cursor: pointer;
+    text-decoration: none;
 
 }
 
@@ -29,6 +31,8 @@
     margin-top: 0.9rem;
     font-weight: 600;
     cursor: pointer;
+    color: black;
+    text-decoration: none;
 }
 
 .un {

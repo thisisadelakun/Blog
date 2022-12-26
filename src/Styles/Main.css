@@ -1,29 +1,37 @@
-.my-main{
+.my-main {
     overflow: hidden;
     width: 100%;
+    height: fit-content;
+    min-height: 100vh;
     /* height: 100vh; */
     position: relative;
     background-image: url('../Assets/pattern-background-desktop.svg');
     background-blend-mode: soft-light;
     background-position-x: center;
     background-repeat: no-repeat;
-    background-position-y: top;  
+    background-position-y: top;
     margin-top: 4.5rem;
     background-color: rgba(255, 255, 255, 0.712);
 }
-h1,h2,h3{
+
+h1,
+h2,
+h3 {
     overflow: hidden;
     font-family: 'Josefin Sans', sans-serif;
 }
-.mainfirsttext{
+
+.mainfirsttext {
     text-align: left;
     width: 90%;
     margin: 3rem 2rem;
 }
-.research{
+
+.research {
     color: grey;
 }
-.servicesbtn{
+
+.servicesbtn {
     padding: 0.5rem 1.5rem;
     font-size: 15px;
     font-weight: 500px;
@@ -33,66 +41,130 @@ h1,h2,h3{
     border-radius: 10px;
     margin: 2rem 0;
 }
-.servicesbtn a{
+
+.servicesbtn a {
     text-decoration: none;
     color: rgba(220, 20, 60, 0.938);
     z-index: 500;
 }
-.services{
+
+.services {
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
-.servicesbtn a:hover{
+
+.servicesbtn a:hover {
     color: grey;
 }
-.servicesbtn:hover{
+
+.servicesbtn:hover {
     border: 0.5px solid crimson;
+
 }
-.mainsecondtext{
+
+.mainsecondtext {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 90%;
     justify-content: center;
     align-items: center;
     margin: auto;
     overflow: hidden;
     height: 100%;
 }
-.mycards{
+
+.mycards {
     overflow: hidden;
 }
-.mycardtitle1 a,
-.mycardtitle a{
+
+.toparticle {
+    text-align: center;
+    overflow: hidden;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: grey;
+}
+
+.mycardtitle a {
     text-decoration: none;
     overflow: hidden;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Josefin Sans', sans-serif;
 }
-.mycardtitle1{
-    padding-bottom: 1rem;
+
+.mycardtitle {
+    padding-bottom: 0.5rem;
 }
-.byyvonne{
+
+.byyvonne {
     font-size: 11px;
     position: absolute;
-    left: 6.6rem;
+    left: 2rem;
     overflow-y: hidden;
     color: rgba(0, 0, 0, 0.603);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.myfirstcard{
+.myfirstcard {
     position: relative;
     top: 2rem;
     text-align: left;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.oilplant{
+
+.oilplant {
     margin-top: 3.0rem;
     text-align: left;
 }
-.oilplant-text{
+
+.oilplant-text {
     height: 100%;
     padding: 2rem 0rem;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.advertise {
+    position: relative;
+    bottom: 0.3rem;
+    height: 19.5rem;
+}
+
+.advertiseh5 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.advertisequote {
+    text-align: right;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    color: rgba(91, 91, 241, 0.884);
+    border: 0.5px solid rgba(91, 91, 241, 0.884);
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(189, 108, 108, 0.2), 0 6px 20px rgba(219, 27, 27, 0.19);
+
+}
+
+.advertisep {
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+.advertisea {
+    text-decoration: none;
+    border: 0.5px solid crimson;
+    padding: 5px 15px;
+    color: crimson;
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+
+
 }
